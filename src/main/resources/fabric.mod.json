@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "shear_item_frames",
+  "version": "${version}",
+  "name": "Shear Item Frames",
+  "description": "This mod allows you to shear (and wax) item frames!\nShearing an item frame makes it invisible, only showing the item which allows for some cool decoration.\nWaxing the item frame stops players from rotating it. Good in places where you don't want to rotate it accidentally.",
+  "authors": ["sydit"],
+  "license": "MIT",
+  "icon": "assets/shear_item_frames/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["shear_item_frames.ShearItemFrames"]
+  },
+  "mixins": ["shear_item_frames.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.0",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

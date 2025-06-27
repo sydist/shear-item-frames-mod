@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "shear_item_frames.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ItemFrameEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
